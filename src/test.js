@@ -1,8 +1,5 @@
 import string from './css.js'
 
-const demo1 = document.querySelector('#demo1')
-const demo2 = document.querySelector('#demo2')
-
 const player = {
     id: undefined,
     time: 100,
@@ -10,9 +7,9 @@ const player = {
         demo1: document.querySelector('#demo1'),
         demo2: document.querySelector('#demo2')
     },
-    events = {
+    events : {
         '#btnPause': 'pause',
-        '#btnPlay': 'pause',
+        '#btnPlay': 'play',
         '#btnSlow': 'slow',
         '#btnNormal': 'normal',
         '#btnFast': 'fast',
@@ -37,10 +34,10 @@ const player = {
             window.clearInterval(id)
             return
         }
-        console.log(n + ':' + string.substr(0, player.n))
-        demo1.innerText = string.substr(0, player.n)
-        demo2.innerHTML = string.substr(0, player.n)
-        demo1.scrollTop = demo.scrollHeight
+        // console.log(n + ':' + string.substr(0, player.n))
+        player.ui.demo1.innerText = string.substr(0, player.n)
+        player.ui.demo2.innerHTML = string.substr(0, player.n)
+        player.ui.demo1.scrollTop = player.ui.demo1.scrollHeight
     },
     play: () => {
         player.id = setInterval(player.run, player.time)
