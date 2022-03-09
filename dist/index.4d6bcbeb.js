@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"9AHHM":[function(require,module,exports) {
+})({"2RA4u":[function(require,module,exports) {
 "use strict";
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "921bf107609f6d2c";
+module.bundle.HMR_BUNDLE_ID = "bed887d14d6bcbeb";
 function _toConsumableArray(arr) {
     return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
 }
@@ -518,7 +518,7 @@ function hmrAcceptRun(bundle, id) {
     acceptedAssets[id] = true;
 }
 
-},{}],"lxd7M":[function(require,module,exports) {
+},{}],"gLLPy":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _cssJs = require("./css.js");
 var _cssJsDefault = parcelHelpers.interopDefault(_cssJs);
@@ -811,6 +811,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["9AHHM","lxd7M"], "lxd7M", "parcelRequire94c2")
+},{}]},["2RA4u","gLLPy"], "gLLPy", "parcelRequire94c2")
 
-//# sourceMappingURL=test.609f6d2c.js.map
+//# sourceMappingURL=index.4d6bcbeb.js.map
